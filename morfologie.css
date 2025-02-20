@@ -1,0 +1,129 @@
+.navigare {
+    box-sizing:0;
+    margin:0;
+    padding:0;
+  }
+  .imaglogo {
+    align-items:centre;
+    padding-left: 35em;
+    padding-right:15em;
+    padding-top:-10em;
+    margin-top:-15em;
+    cursor:pointer;
+  }
+  .navigare {
+    display:flex;
+    justify-content:space-between;
+    align-items:centre;
+    padding:20px 15px;
+    list-style:none; 
+  }
+  .navigare li {
+    display:inline-block;
+  }
+  .navigare li a {
+    text-decoration:none;
+    color:white;
+    transition: .4s ease-in;
+    cursor:pointer;
+    z-index:1;
+  }
+  .navigare li a:hover {
+    color:rgb(17, 138, 214);
+  }
+  .cautare {
+    width:max-content;
+    display:flex;
+    align-items:centre;
+    padding:14px;
+    border-radius: 28px;
+    background-color:white;
+    cursor:pointer;
+  }
+  .cautare-input {
+    font-size:15px;
+    margin-left:14px;
+    color:rgb(9, 9, 9);
+    outline:none;
+    border:none;
+    background:transparent;
+  }
+  .cuprins {
+    text-decoration:none;
+    background-color:blueviolet;
+    width:max-content;
+    display:flex;
+    align-items:centre;
+    padding:14px;
+    border-radius: 28px;
+  }
+  .contact {
+    text-decoration:none;
+    background-color:blueviolet;
+    width:max-content;
+    display:flex;
+    align-items:centre;
+    padding:14px;
+    border-radius: 28px;
+  }
+  .exercitii{
+    text-decoration:none;
+    background-color:blueviolet;
+    width:max-content;
+    display:flex;
+    align-items:centre;
+    padding:14px;
+    border-radius: 28px;
+  }
+  .butoane{
+    display:flex;
+  }
+  body{
+    background: #1b093e;
+  }
+  .containertext 
+  {
+    background-color:rgb(8, 8, 156);
+    width:500px;
+    height:150px;
+    margin-right:auto;
+    margin-left:auto;
+    position:relative;
+    transition: width 0.5s, height 0.5s;
+  }  
+  /*.containertext
+  {
+    background-color:rgb(8, 8, 156);
+    width:300px;
+    height:200px;
+    position:absolute;
+    left:100px;
+  }  */
+  #seemore {
+    width:100px;
+    height:30px;
+    font-size:15px;
+    margin-left:20em;
+    margin-right: auto;
+    padding:5px; 
+    border-radius:14px;
+    background-color:blueviolet;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    display: flex;
+  }
+  /*.containertext:active {
+    background-color:aqua;
+    width:fit-content;
+    height:fit-content;
+    margin-right:auto;
+    margin-left:auto;
+  } */
+  hr {
+    color:rgb(26, 15, 37);
+  }
+   .promo {
+     display:inline-flex;
+     color:white;
+     text-decoration:none;
+   }
